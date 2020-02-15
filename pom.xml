@@ -13,6 +13,7 @@
 	<modules>
 		<module>simplejava</module>
 		<module>simple-spring-boot-dockerization</module>
+		<module>manual-dockerization-springboot</module>
 	</modules>
 
 	<properties>
