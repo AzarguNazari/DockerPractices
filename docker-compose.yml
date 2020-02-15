@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  manual-spring-boot:
+    image: manual-dockerization-springboot
+    expose:
+      - 9090
+    ports:
+      - "9090:8080"
+    build: manual-dockerization-springboot/.
