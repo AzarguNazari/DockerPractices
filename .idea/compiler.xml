@@ -21,7 +21,7 @@
       <module name="dockerpractice" target="1.8" />
       <module name="manual-dockerization-springboot" target="1.8" />
       <module name="simple-spring-boot-dockerization" target="1.8" />
-      <module name="simplejava" target="1.5" />
+      <module name="simplejava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
