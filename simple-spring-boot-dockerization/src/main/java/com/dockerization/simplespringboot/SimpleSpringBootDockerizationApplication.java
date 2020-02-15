@@ -1,13 +1,13 @@
-package com.docker;
+package com.dockerization.simplespringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DockerpracticeApplication {
+public class SimpleSpringBootDockerizationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DockerpracticeApplication.class, args);
+		SpringApplication.run(SimpleSpringBootDockerizationApplication.class, args);
 	}
 
 }

@@ -6,16 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dockerpractice" />
+        <module name="simplejava" />
+        <module name="simple-spring-boot-dockerization" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dockerpractice" target="1.8" />
+      <module name="dockerpractice" target="1.5" />
+      <module name="simple-spring-boot-dockerization" target="1.8" />
+      <module name="simplejava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dockerpractice" options="-parameters" />
+      <module name="simple-spring-boot-dockerization" options="-parameters" />
+      <module name="simplejava" options="-parameters" />
     </option>
   </component>
 </project>
