@@ -1,4 +1,6 @@
 FROM openjdk:8 as build
+RUN apt-get update
+RUN apt-get install -y maven
 WORKDIR /workspace/spring-boot
 COPY build.gradle build.gradle
 COPY settings.gradle settings.gradle
