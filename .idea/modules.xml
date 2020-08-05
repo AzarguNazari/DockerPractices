@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dockerpractice.iml" filepath="$PROJECT_DIR$/dockerpractice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manual-dockerization-springboot/manual-dockerization-springboot.iml" filepath="$PROJECT_DIR$/manual-dockerization-springboot/manual-dockerization-springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-spring-boot-dockerization/simple-spring-boot-dockerization.iml" filepath="$PROJECT_DIR$/simple-spring-boot-dockerization/simple-spring-boot-dockerization.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simplejava/simplejava.iml" filepath="$PROJECT_DIR$/simplejava/simplejava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dockerization/manual-dockerization-springboot/manual-dockerization-springboot.iml" filepath="$PROJECT_DIR$/spring-boot-dockerization/manual-dockerization-springboot/manual-dockerization-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dockerization/simple-spring-boot-dockerization/simple-spring-boot-dockerization.iml" filepath="$PROJECT_DIR$/spring-boot-dockerization/simple-spring-boot-dockerization/simple-spring-boot-dockerization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-dockerization/simplejava/simplejava.iml" filepath="$PROJECT_DIR$/java-dockerization/simplejava/simplejava.iml" />
     </modules>
   </component>
 </project>
