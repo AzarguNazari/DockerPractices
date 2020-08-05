@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="simplejava" />
-        <module name="manual-dockerization-springboot" />
-        <module name="simple-spring-boot-dockerization" />
-      </profile>
-      <profile name="Annotation profile for aumate-spring-boot-run-by-docker" enabled="true">
-        <sourceOutputDir name="manual-dockerization-springboot/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="manual-dockerization-springboot/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="dockerpractice" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dockerpractice" target="1.8" />
+      <module name="dockerpractice" target="1.5" />
+      <module name="gradle-spring-boot-dockerization" target="1.8" />
       <module name="manual-dockerization-springboot" target="1.8" />
       <module name="simple-spring-boot-dockerization" target="1.8" />
       <module name="simplejava" target="1.8" />
@@ -27,6 +12,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dockerpractice" options="-parameters" />
+      <module name="gradle-spring-boot-dockerization" options="-parameters" />
       <module name="manual-dockerization-springboot" options="-parameters" />
       <module name="simple-spring-boot-dockerization" options="-parameters" />
       <module name="simplejava" options="" />
